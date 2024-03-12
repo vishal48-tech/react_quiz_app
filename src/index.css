@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-image: url("../images/quiz.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 5vh 0;
+}
+
+@media (max-width: 640px) {
+    body {
+        background-size: contain;
+    }
+}
+
+.selected {
+    background-color: #007bff;
+    color: white;
+}
+
+.blue {
+    color: rgb(59 130 246);
+}
+
+.green {
+    color: rgb(22 163 74);
+}
